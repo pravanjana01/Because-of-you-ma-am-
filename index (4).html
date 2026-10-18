@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Because of You, Ma'am ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080808;
+    color: #f5e8c8;
+    font-family: Georgia, serif;
+    line-height: 1.8;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #101010;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #c9a44c;
+}
+
+nav a {
+    color: #e8c779;
+    text-decoration: none;
+    margin: 7px;
+    font-size: 13px;
+}
+
+section {
+    padding: 65px 8%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: radial-gradient(circle, #30240d, #080808 70%);
+}
+
+h1 {
+    font-size: clamp(40px, 8vw, 75px);
+    color: #ffe7a0;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #e8c779;
+    font-size: clamp(27px, 5vw, 40px);
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #e8c779;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #d4cbb9;
+    margin-bottom: 17px;
+}
+
+.label {
+    color: #e8c779;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+button {
+    background: transparent;
+    color: #ffe7a0;
+    border: 1px solid #e8c779;
+    padding: 13px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #e8c779;
+    color: #080808;
+}
+
+.card {
+    background: linear-gradient(145deg, #211b10, #111111);
+    border: 1px solid #725b2b;
+    padding: 25px;
+    border-radius: 18px;
+    margin: 18px 0;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ffe7a0;
+}
+
+.heart {
+    font-size: 35px;
+    animation: beat 1.5s infinite;
+}
+
+@keyframes beat {
+    50% { transform: scale(1.15); }
+}
+
+.gold-line {
+    width: 100px;
+    height: 2px;
+    background: #e8c779;
+    margin: 20px auto;
+}
+
+.quote {
+    color: #ffe7a0;
+    font-size: 22px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 35px 15px;
+    background: #111;
+    border-top: 1px solid #725b2b;
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 25px;
+    animation: appear 1s;
+}
+
+@keyframes appear {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media(max-width:600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 50px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#home">HOME</a>
+    <a href="#inspiration">MY INSPIRATION</a>
+    <a href="#words">YOUR WORDS</a>
+    <a href="#dream">MY DREAM</a>
+    <a href="#journey">MY JOURNEY</a>
+    <a href="#letter">MY LETTER</a>
+</nav>
+
+<!-- WELCOME -->
+
+<section class="hero" id="home">
+
+    <div class="heart">♡</div>
+
+    <p class="label">A LITTLE SURPRISE MADE WITH GRATITUDE</p>
+
+    <h1>Because of You,<br>Ma'am.</h1>
+
+    <div class="gold-line"></div>
+
+    <p>
+        There are so many things I have wanted to tell you,
+        but I never knew where to begin.
+        So I created this little space to share my dreams,
+        my gratitude, and the feelings in my heart.
+    </p>
+
+    <p>Made with respect and love by your student ❤️</p>
+
+    <button onclick="document.getElementById('welcome').style.display='block'">
+        Open My Heart ♡
+    </button>
+
+    <div class="hidden-message" id="welcome">
+        <p class="quote">
+            Dear Ma'am, this little surprise is especially for you.
+        </p>
+        <a href="#inspiration" style="color:#e8c779">
+            Begin Our Little Journey ↓
+        </a>
+    </div>
+
+</section>
+
+<!-- MY INSPIRATION -->
+
+<section id="inspiration">
+
+    <p class="label">01 · THE PERSON WHO INSPIRES ME</p>
+    <h2>More Than a Teacher 🌷</h2>
+
+    <p>
+        Dear Ma'am, I admire you for many reasons.
+        Your achievements, your determination, your book,
+        and the way you guide your students have inspired me.
+    </p>
+
+    <div class="card">
+        <h3>📚 Your Achievements</h3>
+        <p>
+            Your book inspires me because it reminds me that
+            our ideas and efforts can become something meaningful.
+            You have shown me the value of learning and creating
+            something of our own.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>✨ Your Strength</h3>
+        <p>
+            I admire the way you continue working towards your goals
+            even when you face difficulties or negative comments.
+            You remind me to focus on improving myself instead of
+            wasting my energy trying to answer everyone.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🤍 Your Kindness</h3>
+        <p>
+            You talk to me warmly and sometimes like a friend.
+            The way you listen, joke with me, and guide me makes
+            me feel comfortable sharing my thoughts with you.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🎓 Your Belief in Me</h3>
+        <p>
+            When you encourage me to study well, aim for 100%,
+            and make my name appear on stage, your words motivate
+            me to work harder and take my future seriously.
+        </p>
+    </div>
+
+</section>
+
+<!-- HER WORDS -->
+
+<section id="words">
+
+    <p class="label">02 · WORDS I WILL REMEMBER</p>
+    <h2>Your Words, My Strength 💛</h2>
+
+    <div class="card">
+        <p class="quote">
+            "Whatever happens, you can share it with me.
+            I will be there."
+        </p>
+
+        <p>
+            Ma'am, when you told me that I could share anything
+            with you, those words meant so much to me.
+            They made me feel that I could speak honestly
+            instead of keeping everything inside.
+        </p>
+    </div>
+
+    <div class="card">
+        <p class="quote">
+            "I want to see your name on stage.
+            Aim for 100%."
+        </p>
+
+        <p>
+            Your encouragement makes me want to work harder.
+            I want to improve my marks, understand my subjects,
+            and become a student who makes you proud.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>What Your Advice Taught Me</h3>
+        <p>
+            You helped me understand that the best response
+            to negativity is to focus on my growth.
+            I want to let my effort, learning, and achievements
+            speak for themselves.
+        </p>
+    </div>
+
+</section>
+
+<!-- SUPPORT FOR MA'AM -->
+
+<section id="support">
+
+    <p class="label">03 · A MESSAGE FROM MY HEART</p>
+    <h2>If You Ever Have a Difficult Day… 🫂</h2>
+
+    <div class="card">
+        <p>Dear Ma'am,</p>
+
+        <p>
+            Even inspiring people can have difficult days.
+            I may not always know the right words, and I may
+            not be able to solve every problem.
+            But I want you to know that the kindness and
+            encouragement you give your students matter.
+        </p>
+
+        <p>
+            Your words have made a difference in my life.
+            If you ever feel tired or discouraged, I hope
+            you remember that your efforts have helped
+            at least one student believe more in herself.
+        </p>
+
+        <p>
+            I respect you, Ma'am, and I am grateful for
+            what I have learned from you.
+            I wish you happiness, peace, and many more
+            achievements to celebrate.
+        </p>
+
+        <p>
+            With respect and warm wishes,<br>
+            Your student ♡
+        </p>
+    </div>
+
+</section>
+
+<!-- NEET DREAM -->
+
+<section id="dream">
+
+    <p class="label">04 · MY BIGGEST DREAM</p>
+    <h2>My Dream — To Become a Doctor 🩺</h2>
+
+    <div class="card">
+        <h3>A Dream Close to My Heart</h3>
+
+        <p>
+            Ma'am, there is something important about my life
+            that I want to share with you.
+            My dream is to become a doctor.
+            It is also a dream that means a lot to my family.
+        </p>
+
+        <p>
+            Even though I am currently studying AI and Data Science,
+            my dream of becoming a doctor is still close to my heart.
+            I wanted you to know this part of me because your
+            guidance means a lot to me.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>One Step at a Time 🌱</h3>
+
+        <p>
+            I want to prepare for NEET step by step while also
+            taking responsibility for my current studies.
+            I know that it will take patience, planning,
+            and consistent effort.
+        </p>
+
+        <p>
+            I hope to keep learning, work towards my dream,
+            and make thoughtful decisions about my future.
+            I wanted to share this dream with you, Ma'am,
+            because it is an important part of who I am.
+        </p>
+    </div>
+
+    <p class="quote">
+        "My dream may take time, but I do not want to
+        stop believing in it."
+    </p>
+
+</section>
+
+<!-- MY JOURNEY -->
+
+<section id="journey">
+
+    <p class="label">05 · MY STORY</p>
+    <h2>The Student Behind This Website 🌷</h2>
+
+    <div class="card">
+        <h3>Learning to Believe in Myself</h3>
+        <p>
+            I am learning that other people's opinions do not
+            have to decide my future. I can listen, learn from
+            my mistakes, and keep improving myself.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>My College Journey 💻</h3>
+        <p>
+            As an AI and Data Science student, I am learning
+            programming, data analysis, and technology one
+            topic at a time. Sometimes I find things difficult,
+            but I want to keep practising.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>What I Hope to Become</h3>
+        <p>
+            I want to become a knowledgeable, kind, responsible
+            person who keeps learning and treats others with respect.
+            I hope my actions show the effort I put into my future.
+        </p>
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <p class="label">06 · MY LEARNING JOURNEY</p>
+    <h2>My Projects & Skills 💻</h2>
+
+    <div class="card">
+        <h3>📊 EDA Mini Project</h3>
+        <p>
+            I am learning how to explore data, understand patterns,
+            clean information, and explain the meaning of results.
+            I want to improve my ability to analyse data and present
+            what I have learned clearly.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🤖 AI Universe Website</h3>
+        <p>
+            I have been exploring how HTML, CSS, and JavaScript
+            can be used to build an educational website about AI.
+            This helps me practise web design and coding.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>☕ Java Programming</h3>
+        <p>
+            I am practising Java basics and small programs.
+            I want to understand each line of code instead of
+            only memorising programs.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🌱 My Promise</h3>
+        <p>
+            I want to keep learning, ask questions when I do not
+            understand, correct my mistakes, and explain my work
+            honestly in my own words.
+        </p>
+    </div>
+
+</section>
+
+<!-- GOALS -->
+
+<section id="goals">
+
+    <p class="label">07 · THE FUTURE I AM WORKING TOWARDS</p>
+    <h2>My Goals & Promises ✨</h2>
+
+    <div class="card">
+        <h3>📚 Academic Growth</h3>
+        <p>
+            I want to study consistently, strengthen my basics,
+            and work towards excellent results.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🩺 NEET Preparation</h3>
+        <p>
+            I want to keep my doctor dream in view and make a
+            realistic preparation plan alongside my education.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>💻 Technical Skills</h3>
+        <p>
+            I want to improve my programming and data analysis
+            skills and create projects I can explain confidently.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🤍 Personal Growth</h3>
+        <p>
+            I want to become more disciplined, responsible,
+            respectful, and willing to learn from feedback.
+        </p>
+    </div>
+
+</section>
+
+<!-- FINAL LETTER -->
+
+<section id="letter">
+
+    <p class="label">08 · THE WORDS I WANTED TO SAY</p>
+    <h2>A Letter From My Heart 💌</h2>
+
+    <div class="card">
+
+        <p>Good evening, Ma'am. ❤️</p>
+
+        <p>
+            I have wanted to tell you these things for a long time,
+            but I never knew how to express them properly.
+            So I created this little website to share what is
+            in my heart.
+        </p>
+
+        <p>
+            Ma'am, I respect you not only as my EDA teacher,
+            but also as a role model. I admire your achievements,
+            the book you published, your determination, and
+            the way you guide your students.
+        </p>
+
+        <p>
+            The way you talk to me kindly, joke with me,
+            encourage me, and tell me that I can share things
+            with you means a lot to me.
+            When you tell me to study well, aim for 100%,
+            and make my name appear on stage, I feel motivated
+            to work harder.
+        </p>
+
+        <p>
+            I remember your advice about focusing on my growth
+            instead of answering negativity with words.
+            I want to learn from that advice and become a better
+            student and a better person.
+        </p>
+
+        <p>
+            I also wanted to share my dream of becoming a doctor.
+            Even though I am studying AI and Data Science now,
+            NEET is still important to me.
+            I want to work towards my dream step by step while
+            taking responsibility for my current education.
+        </p>
+
+        <p>
+            Ma'am, I hope that one day my effort, learning,
+            and achievements will bring a smile to your face.
+            I cannot promise that everything will always be easy,
+            but I want to keep trying and improving little by little.
+        </p>
+
+        <p>
+            If you ever have a difficult day, I hope you remember
+            that the encouragement you give your students can
+            stay with them for a long time.
+            Your guidance has made a difference in my life,
+            and I wanted you to know that sincerely.
+        </p>
+
+        <p>
+            Thank you for encouraging me, talking to me warmly,
+            and reminding me to aim higher.
+            I wish you happiness, peace, good health,
+            and many more achievements in your journey.
+        </p>
+
+        <p>
+            With heartfelt respect and gratitude,<br>
+            <strong style="color:#ffe7a0">
+                Your student, Pravanjana ♡
+            </strong>
+        </p>
+
+    </div>
+
+</section>
+
+<section style="text-align:center">
+
+    <p class="label">ONE LAST LITTLE NOTE</p>
+
+    <h2>You Inspire. You Guide. You Make a Difference. ❤️</h2>
+
+    <p>
+        Thank you, Ma'am, for being part of my learning journey.
+    </p>
+
+    <div class="heart">♡</div>
+
+    <p>Made with respect, gratitude, and hope.</p>
+
+</section>
+
+<footer>
+    <p>Because of You, Ma'am ♡</p>
+    <p>A personal tribute by Pravanjana</p>
+    <p>Keep learning. Keep growing. ✨</p>
+</footer>
+
+</body>
+</html>
